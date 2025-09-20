@@ -1,0 +1,91 @@
+# Environment and Configuration Files
+config.env
+*.env
+.env
+
+# Logs
+*.log
+bwin_monitor*.log
+
+# Browser Data and Sessions
+chrome-session-*/
+chrome-standalone-profile/
+chrome-user-data/
+chrome-user-data-final/
+
+# Downloads and Archives
+*.zip
+chrome-win64.zip
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS Generated Files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Betting Data (if sensitive)
+bet_history.json
+betting_data/
+
+# Proxy Extensions (if they contain credentials)
+proxy_auth_extension.zip
+proxy_auth_simple.zip
+
+# Chrome Debug Files
+chrome_debug.log
+DevToolsActivePort
+
+# Any personal notes or examples with credentials
+*example*.txt
+*login*.txt
+
+# Backup files
+*.bak
+*.backup
